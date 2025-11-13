@@ -2,14 +2,14 @@ import { Facebook, Instagram, Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-black py-10 mt-10">
+    <footer className="w-full bg-black py-10 mt-10">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo & Description */}
         <div>
           <h2 className="text-2xl font-bold text-white mb-3 cursor-pointer">
             Kavva
           </h2>
-          <p className="text-sm">
+          <p className="text-sm text-white">
             Temukan produk terbaik dengan harga terjangkau hanya di Kavva Store.
             Belanja aman, cepat, dan terpercaya!
           </p>
@@ -20,62 +20,62 @@ const Footer = () => {
           <h3 className="text-lg font-semibold text-white mb-3">Sitemap</h3>
           <ul className="space-y-1.5 text-sm">
             <li>
-              <a href="/" className="hover:text-white transition">Aksesoris</a>
+              <a href="/" className="text-white hover:text-white">Aksesoris</a>
             </li>
             <li>
-              <a href="/shop" className="hover:text-grey transition">Shop</a>
+              <a href="/shop" className="text-white hover:text-white">Shop</a>
             </li>
             <li>
-              <a href="/about" className="hover:text-white transition">About</a>
+              <a href="/about" className="text-white hover:text-white">About</a>
             </li>
             <li>
-              <a href="/contact" className="hover:text-white transition">Contact</a>
+              <a href="/contact" className="text-white hover:text-white">Contact</a>
             </li>
           </ul>
         </div>
 
         {/* Quick Links */}
         <div>
-          <h3 className="text-lg font-semibold mb-3">Navigasi</h3>
+          <h3 className="text-lg font-semibold text-white mb-3">Navigasi</h3>
           <ul className="space-y-1.5 text-sm">
             <li>
-              <a href="/" className="hover:text-white transition">Home</a>
+              <a href="/" className="text-white hover:text-white">Home</a>
             </li>
             <li>
-              <a href="/shop" className="hover:text-white transition">Shop</a>
+              <a href="/shop" className="text-white hover:text-white">Shop</a>
             </li>
             <li>
-              <a href="/about" className="hover:text-white transition">About</a>
+              <a href="/about" className="text-white hover:text-white">About</a>
             </li>
             <li>
-              <a href="/contact" className="hover:text-white transition">Contact</a>
+              <a href="/contact" className="text-white hover:text-white">Contact</a>
             </li>
           </ul>
         </div>
 
         {/* Customer Support */}
         <div>
-          <h3 className="text-lg font-semibold mb-3">Bantuan</h3>
+          <h3 className="text-lg font-semibold text-white mb-3">Bantuan</h3>
           <ul className="space-y-1.5 text-sm">
             <li>
-              <a href="/faq" className="hover:text-white transition">FAQ</a>
+              <a href="/faq" className="text-white hover:text-white">FAQ</a>
             </li>
             <li>
-              <a href="/returns" className="hover:text-white transition">Pengembalian</a>
+              <a href="/returns" className="text-white hover:text-white">Pengembalian</a>
             </li>
             <li>
-              <a href="/shipping" className="hover:text-white transition">Pengiriman</a>
+              <a href="/shipping" className="text-white hover:text-white">Pengiriman</a>
             </li>
             <li>
-              <a href="/privacy" className="hover:text-white transition">Kebijakan Privasi</a>
+              <a href="/privacy" className="text-white hover:text-white">Kebijakan Privasi</a>
             </li>
           </ul>
         </div>
 
         {/* Social Media */}
-        <div>
+        <div className="flex flex-col items-start">
           <h3 className="text-lg font-semibold text-white mb-3">Ikuti Kami</h3>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 mt-1">
             <a href="https://facebook.com" target="_blank" className="hover:text-white">
               <Facebook />
             </a>
